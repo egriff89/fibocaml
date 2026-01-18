@@ -26,7 +26,7 @@ let run number =
 
 let cmd =
   let doc = "Compute the nth Fibonacci number" in
-  let info = Cmd.info "fibocaml" ~doc in
+  let info = Cmd.info "fibonacci" ~doc in
   Cmd.v info Term.(ret (const run $ number_arg))
 ;;
 

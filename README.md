@@ -18,6 +18,7 @@ dune exec _build/default/bin/main.exe
 ```shell
 # Build and install `fibonacci` to the project directory
 $ dune build -p fibocaml @install
+$ dune install
 
 # The generated `*.install` file lets you run it without the full path: 
 # `_build/install/default/bin/fibonacci`

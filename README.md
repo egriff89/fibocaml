@@ -3,12 +3,15 @@ A basic Fibonacci generator written in OCaml.
 
 #### Building and running
 ```shell
-$ git clone https://github.com/egriff89/fibocaml.git
-$ cd fibocaml
-$ opam install . --deps-only
+git clone https://github.com/egriff89/fibocaml.git
+cd fibocaml
 
-$ dune build
-$ dune exec _build/default/bin/main.exe
+# Create a local switch and install dependencies
+opam switch create . 5.4.0 --deps-only
+eval $(opam env)
+
+dune build
+dune exec _build/default/bin/main.exe
 ```
 
 ### Installing and running

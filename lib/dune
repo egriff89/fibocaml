@@ -1,2 +1,3 @@
 (library
- (name fibocaml))
+ (name fibocaml)
+ (libraries cmdliner zarith))

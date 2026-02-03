@@ -1,4 +1,4 @@
 (executable
  (public_name fib)
  (name main)
- (libraries fibocaml cmdliner zarith))
+ (libraries fibocaml clap zarith))

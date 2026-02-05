@@ -11,7 +11,7 @@ bug-reports: "https://github.com/egriff89/fibocaml/issues"
 depends: [
   "dune" {>= "3.20"}
   "ocaml"
-  "cmdliner"
+  "clap"
   "zarith"
   "odoc" {with-doc}
 ]

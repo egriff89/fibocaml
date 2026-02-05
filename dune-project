@@ -17,7 +17,7 @@
  (name fibocaml)
  (synopsis "Fibonacci generator written in OCaml")
  (description "Fibonacci generator written in OCaml")
- (depends ocaml cmdliner zarith)
+ (depends ocaml clap zarith)
  (tags
   (ocaml fibonacci cli)))
 

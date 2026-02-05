@@ -10,8 +10,11 @@ cd fibocaml
 opam switch create . 5.4.0 --deps-only
 eval $(opam env)
 
+# For development
+opam install ocaml-lsp-server ocamlformat
+
 dune build
-dune exec _build/default/bin/main.exe
+dune exec ./bin/main.exe
 ```
 
 ### Installing and running
